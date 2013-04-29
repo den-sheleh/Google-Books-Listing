@@ -1,0 +1,19 @@
+!!!
+%html{ lang: "en" }
+  %head
+    %meta{ charset: "utf-8" }
+    %title Ruby Books
+    %meta{ content: "", name: "description"}
+    %meta{ content: "", name: "author"}
+    %link{ href: "css/bootstrap.min.css", rel: "stylesheet" }
+    %link{ href: "css/application.css", rel: "stylesheet" }
+  %body
+    .container
+      .row
+        .page-header
+          %h1
+            Listing of Ruby books
+        %section
+          = yield
+      %footer
+        %p &copy; Dennis Sheleh 2013
