@@ -1,6 +1,7 @@
 %li.span4
   .thumbnail
-    %img{ src: book.image_link(zoom: 1) }
+    %a.fancybox{ title: book.title, href: book.image_link(zoom: 3), rel: 'book_gallery' }
+      %img{ src: book.image_link(zoom: 1) }
     .caption
       %dl.dl-horizontal.book-desc
         %dt Title:
