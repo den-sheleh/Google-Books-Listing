@@ -1,0 +1,9 @@
+%li.span4
+  .thumbnail
+    %img{ src: book.image_link(zoom: 1) }
+    .caption
+      %dl.dl-horizontal.book-desc
+        %dt Title:
+        %dd= book.title
+        %dt Author:
+        %dd= book.authors

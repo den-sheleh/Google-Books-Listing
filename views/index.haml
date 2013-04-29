@@ -1,0 +1,11 @@
+- if @books.entries.any?
+  .row-fluid
+    %ul.thumbnails
+      - @books.each do |book|
+        = partial :book, book: book
+- else
+  .alerta.alert-error
+    %strong No items
+    on this page. Try another one.
+
+= partial :paginator, books: @books, page: @page
