@@ -1,5 +1,3 @@
-$LOAD_PATH << '.'
-
 %w(rubygems bundler/setup sinatra sinatra/dalli
   googlebooks will_paginate will_paginate-bootstrap pry).each { |lib| require lib }
 
