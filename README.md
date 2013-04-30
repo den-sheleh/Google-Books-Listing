@@ -9,3 +9,7 @@ Application based on Google Books API and provides paginated list of 'Ruby on Ra
 * SASS
 * Google Books API
 * Memcache
+
+## Demo
+
+[http://mighty-brushlands-7369.herokuapp.com/] (http://mighty-brushlands-7369.herokuapp.com/)
