@@ -1,5 +1,5 @@
 %w(rubygems bundler/setup sinatra sinatra/dalli
-  googlebooks will_paginate will_paginate-bootstrap pry).each { |lib| require lib }
+  googlebooks will_paginate will_paginate-bootstrap).each { |lib| require lib }
 
 Dir[File.join('lib', '**', '*.rb')].each { |file| require file }
 
